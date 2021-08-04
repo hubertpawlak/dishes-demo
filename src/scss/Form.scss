@@ -1,0 +1,14 @@
+.mainContainer {
+  margin: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  & > div,
+  & > button {
+    margin: 0.4rem;
+    flex-grow: 1;
+  }
+}
