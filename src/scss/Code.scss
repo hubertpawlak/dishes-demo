@@ -1,0 +1,11 @@
+.response {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  & > div {
+    padding: 0.4rem;
+  }
+  & code {
+    white-space: pre-wrap;
+  }
+}

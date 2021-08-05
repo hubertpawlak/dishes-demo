@@ -1,13 +1,24 @@
 .mainContainer {
   margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+.mainContainer > * {
+  margin: 0.4rem !important;
 }
 
-.container {
+.row {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
 }
-.container > div, .container > button {
-  margin: 0.4rem;
+.row > * {
   flex-grow: 1;
+  flex-basis: 0;
+  margin: 0 0.4rem !important;
+}
+.row > *:first-child {
+  margin-left: 0 !important;
+}
+.row > *:last-child {
+  margin-right: 0 !important;
 }

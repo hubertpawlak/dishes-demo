@@ -1,4 +1,4 @@
-import "./css/OtherFields.css";
+import "./css/Form.css";
 
 import { Slider, TextField, Typography } from "@material-ui/core";
 
@@ -13,7 +13,7 @@ export function OtherFields({ type, submitting }: IOtherFields) {
   switch (type) {
     case "pizza":
       return (
-        <div className="othersContainer">
+        <div className="row">
           <Field name="no_of_slices">
             {({ input, meta }) => (
               <TextField
@@ -69,7 +69,7 @@ export function OtherFields({ type, submitting }: IOtherFields) {
       );
     case "sandwich":
       return (
-        <div className="othersContainer">
+        <div className="row">
           <Field name="slices_of_bread">
             {({ input, meta }) => (
               <TextField
