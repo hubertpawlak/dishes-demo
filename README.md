@@ -27,5 +27,5 @@ npm -v
 ```
 # Notes
 - *redux-form* doesn't work with React v17 so I decided to use *final-form*
-- It took me ~3 hours to do this app (excluding `npm install`ation and deployment)
+- It took me 4-5 hours to do and deploy this app (excluding `npm install`ation)
 - Live demo: [dishes-demo.hubertpawlak.dev](https://dishes-demo.hubertpawlak.dev) (deployed on Vercel)
